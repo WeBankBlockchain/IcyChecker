@@ -1,0 +1,18 @@
+s
+#
+1 19 3 1 c
+1 19 6 89 AssertFalse_AssertFalse|/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol|3|
+1 20 3 1 c
+1 20 6 89 AssertFalse_AssertFalse|/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol|3|
+1 20 4 39 CALL AssertFalse_AssertFalse_NoBaseCtor
+1 24 3 1 c
+1 24 6 89 AssertFalse_AssertFalse|/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol|3|
+1 24 4 47 RETURN from AssertFalse_AssertFalse_NoBaseCtor 
+1 51 3 1 c
+1 51 6 83 test1_AssertFalse|/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol|6|
+1 52 3 1 c
+1 52 6 83 test1_AssertFalse|/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol|7|
+1 53 3 1 c
+1 53 6 83 test1_AssertFalse|/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol|7|
+1 53 4 31 ASSERTION FAILS assert false;
+ 

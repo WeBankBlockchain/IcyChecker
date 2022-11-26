@@ -1,0 +1,24 @@
+Single threaded program detected
+Verifying program while tracking: {assertsPassed}
+Program has a potential bug: True bug
+/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol(7,1): error PF5001: This assertion can fail
+
+Execution trace:
+/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol(3,1): Trace: Thread=1  (CALL FreshRefGenerator, RETURN from FreshRefGenerator , CALL AssertFalse_AssertFalse, _verisolFirstArg = false, this = T@Ref!val!0, msg.sender = T@Ref!val!2, msg.value = 0, _verisolLastArg = true)
+/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol(3,1): Trace: Thread=1  (CALL AssertFalse_AssertFalse_NoBaseCtor)
+/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol(3,1): Trace: Thread=1  (RETURN from AssertFalse_AssertFalse_NoBaseCtor )
+/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol(6,1): Trace: Thread=1  (RETURN from AssertFalse_AssertFalse , CALL CorralChoice_AssertFalse, CALL test1_AssertFalse, _verisolFirstArg = false, this = T@Ref!val!0, msg.sender = T@Ref!val!3, msg.value = 0, _verisolLastArg = true)
+/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol(7,1): Trace: Thread=1  ()
+/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol(7,1): Trace: Thread=1  (ASSERTION FAILS assert false;
+ )
+
+Boogie verification time: 0.10 s
+Time spent reading-writing programs: 0.03 s
+
+Time spent checking a program (1): 0.18 s
+Time spent checking a path (1): 0.04 s
+
+Number of procedures inlined: 7
+Number of variables tracked: 1
+Total Time: 0.4134528 s
+Total User CPU time: 0.49 s

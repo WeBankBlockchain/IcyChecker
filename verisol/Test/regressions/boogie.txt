@@ -1,0 +1,11 @@
+Boogie program verifier version 2.4.1.10503, Copyright (c) 2003-2014, Microsoft.
+__SolToBoogieTest_out.bpl(88,1): Error BP5001: This assertion might not hold.
+Execution trace:
+    __SolToBoogieTest_out.bpl(129,1): anon0
+    __SolToBoogieTest_out.bpl(69,1): inline$AssertFalse_AssertFalse$0$anon0
+    __SolToBoogieTest_out.bpl(61,1): inline$AssertFalse_AssertFalse_NoBaseCtor$0$anon0
+    __SolToBoogieTest_out.bpl(135,1): anon3_LoopBody
+    __SolToBoogieTest_out.bpl(146,1): anon4_Then
+    __SolToBoogieTest_out.bpl(81,1): inline$test1_AssertFalse$0$anon0
+
+Boogie program verifier finished with 0 verified, 1 error

@@ -1,0 +1,7 @@
+dotnet verisol/bin/Debug/VeriSol.dll test/counter.sol CounterUtil /modelReverts /omitSourceLineInfo /LazyAllocNoMod /omitAxioms /doModSet /noPrf /noChk /omitDataValuesInTrace /QuantFreeAllocs /instrumentSums /omitBoogieHarness /createMainHarness /noCustomTypes /alias  /noNonlinearArith
+SpecFilesDir = /root/icychecker/test
+... running Solc on /root/icychecker/test/counter.sol
+123
+... running SolToBoogie to translate Solidity to Boogie
+GenerateStructConstructors0:Refcounter
+TranslateStructDefinition:counter_CounterUtil.Tool

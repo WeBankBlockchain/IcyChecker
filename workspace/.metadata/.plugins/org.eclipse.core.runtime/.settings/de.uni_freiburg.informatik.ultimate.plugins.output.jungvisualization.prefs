@@ -1,0 +1,10 @@
+Annotate\ edges=None
+Annotate\ nodes=true
+Background\ color\:=255,255,255
+Choose\ node\ shape\:=RoundRectangle
+Default\ graph\ layout\:=TreeLayout
+Node\ color\:=103,209,248
+Picked\ node\ color\:=246,239,47
+SVG\ Export\ directory\:=.
+Which\ models\ should\ be\ visualized?=LAST
+eclipse.preferences.version=1

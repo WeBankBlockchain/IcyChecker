@@ -1,0 +1,7 @@
+Always\ use\ all\ invariants\ during\ rt-inconsistency\ checks=true
+Check\ consistency=true
+Check\ rt-inconsistency=true
+Check\ vacuity=true
+Report\ trivial\ rt-consistency=false
+Rt-inconsistency\ range=2
+eclipse.preferences.version=1

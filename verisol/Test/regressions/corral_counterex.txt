@@ -1,0 +1,3 @@
+/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol(3,1): : AssertFalse::Constructor (this = address!0, msg.sender = address!2, msg.value = 0)
+/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol(6,1): : AssertFalse::test1 (this = address!0, msg.sender = address!3, msg.value = 0)
+/tool/smartpulse/SmartPulse/verisol/Test/regressions/Error.sol(7,1): : ASSERTION FAILS!
