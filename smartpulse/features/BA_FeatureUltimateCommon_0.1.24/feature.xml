@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="BA_FeatureUltimateCommon"
+      label="BA_FeatureUltimateCommon"
+      version="0.1.24"
+      os="linux,win32,macosx"
+      arch="x86,x86_64">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.apache.commons.io"/>
+      <import plugin="org.eclipse.cdt.core" version="5.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime"/>
+   </requires>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstractionconcurrent"
+         download-size="46"
+         install-size="153"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.analysis.lassoranker"
+         download-size="33"
+         install-size="93"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder"
+         download-size="117"
+         install-size="355"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction"
+         download-size="1002"
+         install-size="3284"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.boogie.printer"
+         download-size="9"
+         install-size="15"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator"
+         download-size="659"
+         install-size="1974"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.generator.automatascriptinterpreter"
+         download-size="57"
+         install-size="139"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.generator.buchiautomizer"
+         download-size="161"
+         install-size="502"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.generator.codecheck"
+         download-size="89"
+         install-size="262"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstractionwithafas"
+         download-size="29"
+         install-size="93"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.analysis.irsdependencies"
+         download-size="106"
+         install-size="236"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.analysis.reachingdefinitions"
+         download-size="81"
+         install-size="213"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.ltl2aut"
+         download-size="71"
+         install-size="146"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.buchiprogramproduct"
+         download-size="31"
+         install-size="82"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.witnessparser"
+         download-size="24"
+         install-size="54"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.analysis.abstractinterpretationv2"
+         download-size="708"
+         install-size="2274"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.witnessprinter"
+         download-size="46"
+         install-size="117"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.boogie.procedureinliner"
+         download-size="96"
+         install-size="233"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.icfgtransformation"
+         download-size="25"
+         install-size="83"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.acsl.parser"
+         download-size="223"
+         install-size="583"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.astbuilder"
+         download-size="43"
+         install-size="86"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.source.automatascriptparser"
+         download-size="134"
+         install-size="344"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.boogie.parser"
+         download-size="61"
+         install-size="166"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.boogie.preprocessor"
+         download-size="88"
+         install-size="236"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.cdt.parser"
+         download-size="45"
+         install-size="97"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.automata"
+         download-size="10269"
+         install-size="15074"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.icfgtransformer"
+         download-size="405"
+         install-size="1168"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="com.github.jhoenicke.javacup"
+         download-size="146"
+         install-size="236"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="403"
+         install-size="874"
+         version="3.3.2"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.boogieast"
+         download-size="272"
+         install-size="718"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="net.sourceforge.czt"
+         download-size="4752"
+         install-size="5298"
+         version="1.5.0"/>
+
+   <plugin
+         id="com.lmax.disruptor"
+         download-size="82"
+         install-size="164"
+         version="3.3.5"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.javabdd"
+         download-size="399"
+         install-size="744"
+         version="0.6.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jdom"
+         download-size="150"
+         install-size="296"
+         version="1.1.1"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.lassoranker"
+         download-size="243"
+         install-size="641"
+         version="0.9.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.log4j"
+         download-size="384"
+         install-size="721"
+         version="1.2.15"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.logging.log4j"
+         download-size="1351"
+         install-size="2964"
+         version="2.6.2"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.modelcheckerutils"
+         download-size="1188"
+         install-size="3334"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.pea"
+         download-size="274"
+         install-size="601"
+         version="0.89.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.smtlib"
+         download-size="184"
+         install-size="397"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.srparse"
+         download-size="93"
+         install-size="224"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.core"
+         download-size="349"
+         install-size="573"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.ultimatemodel"
+         download-size="73"
+         install-size="137"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.util"
+         download-size="377"
+         install-size="908"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xerces"
+         download-size="2"
+         install-size="1"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.pea2boogie"
+         download-size="84"
+         install-size="217"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.smtinterpol"
+         download-size="803"
+         install-size="1889"
+         version="2.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.smtsolver.external"
+         download-size="87"
+         install-size="212"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.core"
+         download-size="188"
+         install-size="443"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="org.ojalgo"
+         download-size="2656"
+         install-size="7276"
+         version="38.18.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.uci.ics.jung"
+         download-size="4561"
+         install-size="8900"
+         version="2.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.blockencoding"
+         download-size="71"
+         install-size="214"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.interactive"
+         download-size="42"
+         install-size="97"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.generator.invariantsynthesis"
+         download-size="22"
+         install-size="58"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.analysis.syntaxchecker"
+         download-size="12"
+         install-size="20"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.source.smtparser"
+         download-size="37"
+         install-size="89"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.chctoboogie"
+         download-size="30"
+         install-size="81"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.req.printer"
+         download-size="11"
+         install-size="18"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.reqparser"
+         download-size="14"
+         install-size="28"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.pdr"
+         download-size="24"
+         install-size="67"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.reqtotest"
+         download-size="57"
+         install-size="153"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.plugins.icfgtochc"
+         download-size="20"
+         install-size="49"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.chcprinter"
+         download-size="10"
+         install-size="19"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_freiburg.informatik.ultimate.lib.chc"
+         download-size="31"
+         install-size="75"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="edu.utexas.cs.utopia.specLang"
+         download-size="83"
+         install-size="187"
+         version="0.1.24"
+         unpack="false"/>
+
+   <plugin
+         id="edu.utexas.cs.utopia.ltl2aut"
+         download-size="18"
+         install-size="40"
+         version="0.1.24"
+         unpack="false"/>
+
+</feature>

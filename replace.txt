@@ -1,0 +1,18 @@
+CounterUtil,CounterUtil,tool,tool_CounterUtil[this]
+CounterUtil,CounterUtil,tool.counter,counter_CounterUtil.Tool[tool_CounterUtil[this]]
+CounterUtil,CounterUtil,tool.counter.value,value_CounterUtil.Counter[counter_CounterUtil.Tool[tool_CounterUtil[this]]]
+CounterUtil,CounterUtil,1,1
+CounterUtil,current,tool,tool_CounterUtil[this]
+CounterUtil,current,tool.counter,counter_CounterUtil.Tool[tool_CounterUtil[this]]
+CounterUtil,current,tool.counter.value,value_CounterUtil.Counter[counter_CounterUtil.Tool[tool_CounterUtil[this]]]
+CounterUtil,increment,tool,tool_CounterUtil[this]
+CounterUtil,increment,tool.counter,counter_CounterUtil.Tool[tool_CounterUtil[this]]
+CounterUtil,increment,tool.counter.value,value_CounterUtil.Counter[counter_CounterUtil.Tool[tool_CounterUtil[this]]]
+CounterUtil,increment,1,1
+CounterUtil,decrement,tool,tool_CounterUtil[this]
+CounterUtil,decrement,tool.counter,counter_CounterUtil.Tool[tool_CounterUtil[this]]
+CounterUtil,decrement,tool.counter.value,value_CounterUtil.Counter[counter_CounterUtil.Tool[tool_CounterUtil[this]]]
+CounterUtil,decrement,0,0
+CounterUtil,decrement,tool.counter.value >= 0,(value_CounterUtil.Counter[counter_CounterUtil.Tool[tool_CounterUtil[this]]]) >= (0)
+CounterUtil,decrement,1,1
+CounterUtil,decrement,tool.counter.value - 1,(value_CounterUtil.Counter[counter_CounterUtil.Tool[tool_CounterUtil[this]]]) - (1)

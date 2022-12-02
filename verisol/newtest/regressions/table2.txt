@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.6.0;
+
+contract Crowdfunding {
+    
+    uint goal;
+    mapping(address => uint) backers;
+    function Claim() public {
+		if(backers[msg.sender] == 0 || goal <= address(this).balance) {
+			revert();
+		}
+    }
+}
